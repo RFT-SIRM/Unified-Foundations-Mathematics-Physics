@@ -1,12 +1,14 @@
 # Unified Foundations — Mathematics & Physics
 
+[![Live Portal](https://img.shields.io/badge/Live%20Portal-rft--sirm.github.io-22c55e?style=for-the-badge)](https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/)
 [![RFT-SIRM](https://img.shields.io/badge/RFT--SIRM-0f172a?style=for-the-badge)](https://github.com/RFT-SIRM)
 [![Evgeny-Theorem](https://img.shields.io/badge/Evgeny--Theorem-5aa9ff?style=for-the-badge)](https://github.com/RFT-SIRM/Evgeny-Theorem)
 [![Phi-Genesis](https://img.shields.io/badge/Phi--Genesis-dc2626?style=for-the-badge)](https://github.com/RFT-SIRM/Phi-Genesis)
-[![Pages](https://img.shields.io/badge/Live-Portal-22c55e?style=for-the-badge)](https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-eab308?style=for-the-badge)](./LICENSE)
 
 Cross-repository research program under **RFT-SIRM**: operator methods, spectral invariants, verification, and Lean 4 formalization.
+
+**Portal:** [https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/](https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/)
 
 Common pattern:
 
@@ -47,10 +49,6 @@ Principal repository: [Evgeny-Theorem](https://github.com/RFT-SIRM/Evgeny-Theore
 | [VERIFICATION_POLICY.md](./VERIFICATION_POLICY.md) | Evidence levels |
 | [ROADMAP.md](./ROADMAP.md) | Phases |
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | Rules |
-
-## Live portal
-
-[https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/](https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/)
 
 ## License
 
