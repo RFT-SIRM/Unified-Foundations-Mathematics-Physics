@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Required files
+        run: |
+          set -e
+          for f in README.md ARCHITECTURE.md MODULES.md FORMALIZATION.md \
+                   RESULT_STATUS.md VERIFICATION_POLICY.md ROADMAP.md \
+                   CONTRIBUTING.md LICENSE index.html; do
+            test -f "$f" && echo "OK $f" || { echo "MISSING $f"; exit 1; }
+          done
+      - name: Portal is Unified Foundations
+        run: |
+          grep -q "Unified Foundations" index.html
+          grep -q "I" index.html
+          ! grep -q "Evgeny Theorem — Gauge-Invariant" index.html
+      - name: No Rift branding
+        run: |
+          ! grep -riE 'разлом' --include='*.md' --include='*.html' .
+          echo "OK no разлом"
