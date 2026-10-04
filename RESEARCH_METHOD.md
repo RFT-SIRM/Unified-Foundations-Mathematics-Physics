@@ -4,8 +4,7 @@
 
 Each research claim follows:
 
-\[
-\boxed{
+$$
 \text{hypothesis}
 \rightarrow
 \text{definition}
@@ -21,8 +20,7 @@ Each research claim follows:
 \text{formalization}
 \rightarrow
 \text{open problem}
-}
-\]
+$$
 
 Not every claim reaches every stage.
 

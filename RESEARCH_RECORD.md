@@ -2,37 +2,41 @@
 
 ## 2026-10-03 — Program initialization
 
-The cross-repository research program **Unified Foundations — Mathematics & Physics** is established as a GitHub Project under `RFT-SIRM`.
+The cross-repository research program **Unified Foundations — Mathematics & Physics** is established under `RFT-SIRM`.
 
-Project URL:
+Repository:
 
-https://github.com/users/RFT-SIRM/projects/4
+https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics
 
-The purpose is to connect existing research repositories into one scientific program without requiring them to be merged physically.
+Live portal:
+
+https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/
+
+Purpose: connect existing research repositories into one scientific program without merging them into a single codebase.
 
 ## Current central line
 
 Evgeny's Theorem remains the principal mathematical core.
 
-The active formalization sequence is:
+Active formalization sequence:
 
 SU(2) unitarity
 → connection operator
-→ diagonal of \(H\)
-→ diagonal of \(H^2\)
+→ diagonal of $H$
+→ diagonal of $H^2$
 → fourth trace
 → flux/axis counting
-→ closed trace-defect identity.
+→ closed trace-defect identity
+
+Base case $m=1$ is proved in Lean; work continues toward general $m$.
 
 ## Scientific record principle
 
-The program will preserve positive results, negative results, unresolved questions, computational evidence, and formal proof status as separate categories.
+The program preserves positive results, negative results, unresolved questions, computational evidence, and formal proof status as separate categories.
 
 ## Next integration phase
 
-1. Link existing repositories to the Project.
-2. Add one Project item per research module.
-3. Add the formalization milestone for Evgeny's Theorem.
-4. Add verification and reproducibility milestones.
-5. Add module-specific research records.
-6. Add cross-module dependency relationships.
+1. Keep module links current in [MODULES.md](./MODULES.md).
+2. Track Lean milestones in [FORMALIZATION.md](./FORMALIZATION.md).
+3. Update [RESULT_STATUS.md](./RESULT_STATUS.md) only with reproducible evidence.
+4. Maintain verification policy in [VERIFICATION_POLICY.md](./VERIFICATION_POLICY.md).

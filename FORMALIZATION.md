@@ -2,42 +2,33 @@
 
 ## Environment
 
-Primary formalization environment:
-
 - Lean 4
 - Mathlib
-- current project toolchain: Lean 4.33.1
+- Toolchain as pinned in [Evgeny-Theorem](https://github.com/RFT-SIRM/Evgeny-Theorem) `formalization/`
 
 ## Central proof chain
-
-The intended proof chain is:
 
 1. define SU(2) edge rotations;
 2. prove their unitarity;
 3. construct the connection operator;
 4. prove its diagonal;
-5. derive the diagonal of \(H^2\);
+5. derive the diagonal of $H^2$;
 6. reduce the fourth trace to local contributions;
-7. classify the relevant flux/axis contributions;
-8. perform the exact combinatorial count;
-9. derive the closed form for \(\Delta_m(H^4,\theta)\).
+7. classify flux / axis contributions;
+8. exact combinatorial count;
+9. closed form for $\Delta_m(H^4,\theta)$.
 
 ## Current milestone
 
-The formalization already contains:
+Established in Lean (Evgeny-Theorem):
 
-- `edgeUnitary`;
-- `edgeUnitaryWithAxis`;
-- `connectionOperator`;
-- `connectionOperatorWithAxis`;
-- `HC`;
-- `HCprime`;
-- a proved `connectionOperator_diagonal` identity.
-
-The immediate next mathematical reduction is the diagonal of \(H^2\).
+- graph infrastructure (`SG(m)`, `Vertex`, `Adj`, degree);
+- unitarity lemmas;
+- base case `traceDefect_one` for $m=1$;
+- work on trace expansion $(D-A)^4$, orientation, flipped-face count toward general $m$.
 
 ## Formal status rule
 
-A statement is marked formally proved only when the Lean source compiles successfully in the recorded environment without an unproved axiom standing in for the mathematical content of the claim.
+A statement is marked formally proved only when the Lean source compiles in the recorded environment without an unproved axiom standing in for the mathematical content of the claim.
 
-A bridge theorem that is merely postulated must be labelled as an assumption, not as a completed proof.
+A postulated bridge theorem must be labelled as an assumption, not as a completed proof.

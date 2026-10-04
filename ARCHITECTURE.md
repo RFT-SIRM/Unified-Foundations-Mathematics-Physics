@@ -2,43 +2,38 @@
 
 ## Layer 0 — Research environment
 
-UltraCore-RFT provides the laboratory context and the surrounding research infrastructure.
+UltraCore-RFT provides the laboratory context and surrounding research infrastructure.
 
 ## Layer 1 — Mathematical core
 
 Evgeny's Theorem provides the principal current exact result:
 
-\[
-\Delta_m(H^4,\theta)
-=-16(3^{m-1}+1)\sin^2(\theta/2).
-\]
+$$
+\Delta_m(H^4,\theta)=-16(3^{m-1}+1)\sin^2\!\left(\frac{\theta}{2}\right).
+$$
 
-The central formalization target is the operator-level derivation of this identity.
+The central formalization target is the operator-level derivation of this identity for all $m$.
 
 ## Layer 2 — Operator and symmetry structures
 
-This layer contains:
-
-- graph/fractal operators;
+- graph / fractal operators;
 - SU(2) edge transport;
 - unitary edge matrices;
 - connection operators;
-- gauge/symmetry transformations;
+- gauge / symmetry transformations;
 - trace and spectral constructions.
 
 ## Layer 3 — Invariants
 
-Examples include:
-
 - trace defects;
 - normalized spectral invariants;
-- conservation/accounting identities;
+- conservation / accounting identities;
 - energy invariants;
 - graph scheduling invariants.
 
 ## Layer 4 — Spectral and arithmetic structures
 
-This layer studies spectra, spectral gaps, scaling laws, arithmetic local factors, transfer operators, and related constructions.
+Spectra, spectral gaps, scaling laws, arithmetic local factors, transfer operators.
 
 ## Layer 5 — Application modules
 
@@ -52,8 +47,6 @@ This layer studies spectra, spectral gaps, scaling laws, arithmetic local factor
 Each module remains independently testable.
 
 ## Layer 6 — Verification
-
-Verification is separated into:
 
 - symbolic derivation;
 - numerical computation;

@@ -1,14 +1,16 @@
-# GitHub Project Setup
+# Repository Setup
 
-## Project
+## Repository
 
 **Unified Foundations — Mathematics & Physics**
 
-URL:
+https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics
 
-https://github.com/users/RFT-SIRM/projects/4
+Live portal:
 
-## Recommended Project fields
+https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/
+
+## Recommended labels (Issues)
 
 ### Status
 
@@ -49,17 +51,11 @@ https://github.com/users/RFT-SIRM/projects/4
 - Normal
 - Exploratory
 
-## First Project items
+## First work items
 
-1. Evgeny's Theorem — complete Lean operator proof
+1. Evgeny's Theorem — complete Lean operator proof (general $m$)
 2. SU(2) operator layer
-3. Spectral/fractal mathematics
-4. Yang–Mills research module
-5. Riemann / Hilbert–Pólya module
-6. BSD module
-7. Navier–Stokes module
-8. P vs NP / scheduling module
-9. Phi-Genesis module
-10. Cross-module invariant framework
-11. Reproducibility infrastructure
-12. Scientific release / research record
+3. Spectral / fractal mathematics
+4. Module research records (YM, Riemann, BSD, NS, scheduling, Phi-Genesis)
+5. Cross-module invariant framework
+6. Reproducibility infrastructure

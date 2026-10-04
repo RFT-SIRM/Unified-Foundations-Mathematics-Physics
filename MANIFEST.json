@@ -1,30 +1,9 @@
 {
   "project": "Unified Foundations \u2014 Mathematics & Physics",
   "organization": "RFT-SIRM",
-  "github_project": "https://github.com/users/RFT-SIRM/projects/4",
+  "repository": "https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics",
+  "portal": "https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/",
   "license": "Apache-2.0",
-  "generated_on": "2026-10-03",
-  "branding": "RFT-SIRM / UltraCore-RFT only \u2014 no Rift",
-  "files": [
-    ".gitignore",
-    "ARCHITECTURE.md",
-    "CITATION.cff",
-    "CONTRIBUTING.md",
-    "FORMALIZATION.md",
-    "LICENSE",
-    "MANIFEST.json",
-    "MODULES.md",
-    "NOTICE",
-    "PACKAGE_CHECK.json",
-    "PROBLEM_REGISTRY.md",
-    "PROJECT_CHARTER.md",
-    "PROJECT_SETUP.md",
-    "README.md",
-    "RESEARCH_METHOD.md",
-    "RESEARCH_RECORD.md",
-    "RESULT_STATUS.md",
-    "ROADMAP.md",
-    "VERIFICATION_POLICY.md"
-  ],
-  "file_count": 19
+  "generated_on": "2026-10-04",
+  "branding": "RFT-SIRM / UltraCore-RFT only \u2014 no Rift"
 }

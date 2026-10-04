@@ -6,7 +6,7 @@
 
 ## Organizational position
 
-This is a cross-repository research program under the RFT-SIRM organization and within the broader UltraCore-RFT laboratory context.
+Cross-repository research program under the RFT-SIRM organization and within the UltraCore-RFT laboratory context.
 
 ## Objective
 
@@ -16,7 +16,7 @@ Build a reproducible scientific record of a common mathematical research framewo
 
 Can a common sequence of constructions—
 
-\[
+$$
 \text{structure}
 \rightarrow
 \text{operator/transition}
@@ -26,7 +26,7 @@ Can a common sequence of constructions—
 \text{spectral/structural constraint}
 \rightarrow
 \text{global property}
-\]
+$$
 
 —be formulated rigorously and reused across substantially different mathematical systems?
 
@@ -44,6 +44,6 @@ Can a common sequence of constructions—
 
 ## Principle
 
-The Project records what is established, what is computationally supported, what is formally proved, what has been rejected, and what remains open.
+The program records what is established, what is computationally supported, what is formally proved, what has been rejected, and what remains open.
 
-The scientific value of the program is determined by the mathematical results obtained from the framework, not by the project label.
+Scientific value is determined by the mathematical results obtained from the framework, not by the project label.
