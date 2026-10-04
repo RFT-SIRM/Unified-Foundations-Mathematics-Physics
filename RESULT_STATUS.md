@@ -19,7 +19,7 @@ $$
 For an elliptic curve over $\mathbb{Q}$:
 
 $$
-a_p = p + 1 - \#E(\mathbb{F}_p),
+a_p = p + 1 - \lvert E(\mathbb{F}_p)\rvert,
 \qquad
 \cos\theta_p = \frac{a_p}{2\sqrt{p}}.
 $$

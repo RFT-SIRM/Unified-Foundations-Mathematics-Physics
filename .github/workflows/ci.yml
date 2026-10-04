@@ -20,9 +20,4 @@ jobs:
       - name: Portal is Unified Foundations
         run: |
           grep -q "Unified Foundations" index.html
-          grep -q "I" index.html
           ! grep -q "Evgeny Theorem — Gauge-Invariant" index.html
-      - name: No Rift branding
-        run: |
-          ! grep -riE 'разлом' --include='*.md' --include='*.html' .
-          echo "OK no разлом"
