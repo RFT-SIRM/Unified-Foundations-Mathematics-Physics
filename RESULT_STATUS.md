@@ -19,14 +19,15 @@ $$
 For an elliptic curve over $\mathbb{Q}$:
 
 $$
-a_p=p+1-\#E(\mathbb{F}_p),\qquad
-\cos\theta_p=\frac{a_p}{2\sqrt{p}}.
+a_p = p + 1 - \#E(\mathbb{F}_p),
+\qquad
+\cos\theta_p = \frac{a_p}{2\sqrt{p}}.
 $$
 
 With
 
 $$
-U_p=\operatorname{diag}(e^{i\theta_p},e^{-i\theta_p}),
+U_p = \mathrm{diag}(e^{i\theta_p}, e^{-i\theta_p}),
 $$
 
 the local Euler factor is represented exactly through the corresponding SU(2) matrix expression.
@@ -39,7 +40,7 @@ $$
 H_{uu}=\deg(u)
 $$
 
-has been proved in the current Lean development (base case $m=1$ for the trace defect is also established in Lean).
+has been proved in the current Lean development. Base case $m=1$ for the trace defect is established in Lean.
 
 Next targets: general $m$, orientation handling, $H^2$ diagonal, fourth-trace reduction, closed combinatorial identity.
 

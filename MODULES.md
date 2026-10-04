@@ -37,9 +37,9 @@ Successful matches and mismatches are both recorded.
 Local SU(2) representation associated with elliptic-curve Frobenius data:
 
 $$
-\cos\theta_p=\frac{a_p}{2\sqrt{p}},
+\cos\theta_p = \frac{a_p}{2\sqrt{p}},
 \qquad
-U_p=\operatorname{diag}(e^{i\theta_p},e^{-i\theta_p}).
+U_p = \mathrm{diag}(e^{i\theta_p}, e^{-i\theta_p}).
 $$
 
 The global rank relation remains a separate open problem.
