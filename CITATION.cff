@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-title: "Unified Foundations — Mathematics & Physics"
+title: "Unified Foundations - Mathematics and Physics"
+message: "If you use this research program map, please cite it."
 type: software
-abstract: >
-  Cross-repository research program for mathematical structures,
-  operator methods, spectral methods, computational verification,
-  and formalization across mathematics and physics.
-repository-code: "https://github.com/users/RFT-SIRM/projects/4"
+authors:
+  - name: "RFT-SIRM"
+repository-code: "https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics"
+url: "https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/"
+abstract: "Cross-repository research program for mathematical structures, operator methods, spectral methods, computational verification, and formalization across mathematics and physics."
 license: Apache-2.0
