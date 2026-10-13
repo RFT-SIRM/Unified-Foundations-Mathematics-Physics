@@ -12,7 +12,7 @@ $$
 \Delta_m(H^4,\theta)=-16(3^{m-1}+1)\sin^2\!\left(\frac{\theta}{2}\right).
 $$
 
-The central formalization target is the operator-level derivation of this identity for all $m$.
+This identity is machine-checked in Lean 4 for every $m \ge 1$ and every $\theta$ (concrete SU(2) connection operators on the Sierpiński gasket, fourth moment; evidence level C, see [FORMALIZATION.md](./FORMALIZATION.md)). The Lean statement is the $\Delta_m$ identity; it has not yet been independently peer-reviewed.
 
 ## Layer 2 — Operator and symmetry structures
 

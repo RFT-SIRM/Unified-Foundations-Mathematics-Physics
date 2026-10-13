@@ -10,12 +10,13 @@
 
 ## Phase 2 — Evgeny's Theorem
 
-- [ ] Complete \(H^2\) diagonal lemma
-- [ ] Complete fourth-trace reduction
-- [ ] Complete exact flux/axis counting
-- [ ] Close the final theorem in Lean
-- [ ] Record compiler/toolchain version
-- [ ] Publish reproducibility instructions
+- [x] Complete \(H^2\) diagonal lemma
+- [x] Complete fourth-trace reduction (via gluing of three copies)
+- [x] Complete exact flux/axis counting (replaced by the coupled recursion over two orientations)
+- [x] Close the final theorem in Lean (`traceDefect_closed`)
+- [x] Record compiler/toolchain version (`lean-toolchain`, `lake-manifest.json` in Evgeny-Theorem)
+- [x] Publish reproducibility instructions (`formalization/README.md` in Evgeny-Theorem)
+- [ ] Independent review of the Lean definitions
 
 ## Phase 3 — Cross-module integration
 

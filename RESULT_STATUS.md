@@ -14,6 +14,8 @@ $$
 I_\infty=-\frac{8}{9}.
 $$
 
+Evidence levels: A (exact) and C (`FORMALLY PROVED` in Lean 4 for every $m \ge 1$, fourth moment; see [FORMALIZATION.md](./FORMALIZATION.md)). The value $I_\infty$ is a consequence of the formula; it is not part of the statement `traceDefect_closed`.
+
 ### Local BSD SU(2) identity
 
 For an elliptic curve over $\mathbb{Q}$:
@@ -34,15 +36,9 @@ the local Euler factor is represented exactly through the corresponding SU(2) ma
 
 ## Formalization status
 
-Operator formalization is active. The diagonal identity
+`FORMALLY PROVED`: $\Delta_m(H^4,\theta)=-16(3^{m-1}+1)\sin^2(\theta/2)$ for every $m \ge 1$ and every $\theta$, in the Lean 4 development ([Evgeny-Theorem](https://github.com/RFT-SIRM/Evgeny-Theorem), theorem `traceDefect_closed`; no `sorry`, standard axioms only). Details and reproduction: [FORMALIZATION.md](./FORMALIZATION.md).
 
-$$
-H_{uu}=\deg(u)
-$$
-
-has been proved in the current Lean development. Base case $m=1$ for the trace defect is established in Lean.
-
-Next targets: general $m$, orientation handling, $H^2$ diagonal, fourth-trace reduction, closed combinatorial identity.
+Not covered: $m = 0$; moments other than the fourth; independent review that the Lean definitions of the operators match the intended objects.
 
 ## Mixed / open results
 

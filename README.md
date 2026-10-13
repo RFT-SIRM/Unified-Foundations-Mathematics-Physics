@@ -26,7 +26,7 @@ $$
 I_\infty=-\frac{8}{9}
 $$
 
-Principal repository: [Evgeny-Theorem](https://github.com/RFT-SIRM/Evgeny-Theorem).
+Principal repository: [Evgeny-Theorem](https://github.com/RFT-SIRM/Evgeny-Theorem). Its main identity is formally proved in Lean 4 for every level $m \ge 1$ (fourth moment); see [FORMALIZATION.md](./FORMALIZATION.md).
 
 ## Modules
 
@@ -44,7 +44,7 @@ Principal repository: [Evgeny-Theorem](https://github.com/RFT-SIRM/Evgeny-Theore
 |------|------|
 | [ARCHITECTURE.md](./ARCHITECTURE.md) | Layers L0–L6 |
 | [MODULES.md](./MODULES.md) | Module map |
-| [FORMALIZATION.md](./FORMALIZATION.md) | Lean 4 plan |
+| [FORMALIZATION.md](./FORMALIZATION.md) | Lean 4 formalization status |
 | [RESULT_STATUS.md](./RESULT_STATUS.md) | Exact / open ledger |
 | [VERIFICATION_POLICY.md](./VERIFICATION_POLICY.md) | Evidence levels |
 | [ROADMAP.md](./ROADMAP.md) | Phases |

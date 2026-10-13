@@ -10,7 +10,7 @@ $$
 \Delta_m(H^4,\theta)=-16(3^{m-1}+1)\sin^2\!\left(\frac{\theta}{2}\right).
 $$
 
-Current focus: complete operator-level Lean proof (base case $m=1$ done; general $m$ in progress).
+Status: operator-level Lean proof complete for every $m \ge 1$ (fourth moment; evidence level C, see [FORMALIZATION.md](./FORMALIZATION.md)). Remaining: independent review of the formal definitions; moments other than the fourth are not covered.
 
 Repository: [Evgeny-Theorem](https://github.com/RFT-SIRM/Evgeny-Theorem)
 
@@ -18,7 +18,7 @@ Repository: [Evgeny-Theorem](https://github.com/RFT-SIRM/Evgeny-Theorem)
 
 Hilbert-space indexing, Pauli-axis rotations, edge transport, connection operators, unitary constructions.
 
-Formalization proceeds from unitarity and diagonal identities toward the diagonal of $H^2$, trace identities, and the final defect formula.
+Formalized in Lean 4 for Evgeny's Theorem: unitarity, the connection operator and its diagonal, the diagonal of $H^2$, trace identities for the glued operator, and the final defect formula (see [FORMALIZATION.md](./FORMALIZATION.md)).
 
 ## 3. Yang–Mills
 

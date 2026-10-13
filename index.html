@@ -94,12 +94,12 @@ footer{margin-top:3rem;padding-top:1.3rem;border-top:1px solid var(--line);font-
 <div class="eq mono">Δ<sub>m</sub>(H<sup>4</sup>, θ) = −16 (3<sup>m−1</sup> + 1) sin²(θ/2)</div>
 <div class="eq mono" style="color:var(--a)">θ = π/2 ⇒ I<sub>∞</sub> = −8/9</div>
 <p class="sub">Exact trace-defect identity for non-Abelian SU(2) on the Sierpiński gasket.</p>
-<span class="tag">Exact formula · Lean formalization in progress</span>
+<span class="tag">Exact formula · Lean 4 proof complete for m ≥ 1</span>
 </div></section>
 
 <section id="modules"><h2>Research modules</h2>
 <div class="grid">
-<a class="card" href="https://github.com/RFT-SIRM/Evgeny-Theorem" style="color:inherit"><h3>Evgeny's Theorem</h3><p>Trace-defect identity on SG(m).</p><span class="st sf">Formalization</span></a>
+<a class="card" href="https://github.com/RFT-SIRM/Evgeny-Theorem" style="color:inherit"><h3>Evgeny's Theorem</h3><p>Trace-defect identity on SG(m).</p><span class="st sf">Lean proved</span></a>
 <div class="card"><h3>SU(2) / Operators</h3><p>Edge unitaries, connection operators.</p><span class="st sa">Active</span></div>
 <div class="card"><h3>Yang–Mills</h3><p>Gauge, holonomy, continuum questions.</p><span class="st so">Open</span></div>
 <div class="card"><h3>Riemann / Hilbert–Pólya</h3><p>Spectral–arithmetic candidates.</p><span class="st so">Open</span></div>
@@ -116,7 +116,7 @@ footer{margin-top:3rem;padding-top:1.3rem;border-top:1px solid var(--line);font-
 <div class="docs">
 <a href="https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics/blob/main/ARCHITECTURE.md">ARCHITECTURE.md<span>Layers L0–L6</span></a>
 <a href="https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics/blob/main/MODULES.md">MODULES.md<span>Module map</span></a>
-<a href="https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics/blob/main/FORMALIZATION.md">FORMALIZATION.md<span>Lean 4 plan</span></a>
+<a href="https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics/blob/main/FORMALIZATION.md">FORMALIZATION.md<span>Lean 4 status</span></a>
 <a href="https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics/blob/main/RESULT_STATUS.md">RESULT_STATUS.md<span>Exact / open ledger</span></a>
 <a href="https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics/blob/main/VERIFICATION_POLICY.md">VERIFICATION_POLICY.md<span>Evidence levels</span></a>
 <a href="https://github.com/RFT-SIRM/Unified-Foundations-Mathematics-Physics/blob/main/ROADMAP.md">ROADMAP.md<span>Phases</span></a>
@@ -144,7 +144,7 @@ footer{margin-top:3rem;padding-top:1.3rem;border-top:1px solid var(--line);font-
 <tr><td>Δ_m(H⁴,θ) closed form</td><td><span class="st sf">Exact</span></td><td>Established identity</td></tr>
 <tr><td>I_∞ = −8/9</td><td><span class="st sf">Exact</span></td><td>Limit at θ = π/2</td></tr>
 <tr><td>Lean: connection diagonal</td><td><span class="st sf">Proved</span></td><td>H_uu = deg(u)</td></tr>
-<tr><td>Lean: full operator proof</td><td><span class="st sa">In progress</span></td><td>Next: H² → fourth trace</td></tr>
+<tr><td>Lean: full operator proof</td><td><span class="st sf">Proved</span></td><td>All m ≥ 1 · fourth moment · no sorry</td></tr>
 <tr><td>BSD local SU(2)</td><td><span class="st sf">Exact local</span></td><td>Global rank open</td></tr>
 </tbody></table></div></section>
 
@@ -154,12 +154,12 @@ footer{margin-top:3rem;padding-top:1.3rem;border-top:1px solid var(--line);font-
 <span class="node d">SU(2) unitarity</span><span class="ar">→</span>
 <span class="node d">connection</span><span class="ar">→</span>
 <span class="node d">diag H</span><span class="ar">→</span>
-<span class="node n">diag H²</span><span class="ar">→</span>
-<span class="node">4th trace</span><span class="ar">→</span>
-<span class="node">flux count</span><span class="ar">→</span>
-<span class="node">Δ_m closed</span>
+<span class="node d">diag H²</span><span class="ar">→</span>
+<span class="node d">3-copy gluing</span><span class="ar">→</span>
+<span class="node d">recursion</span><span class="ar">→</span>
+<span class="node d">Δ_m closed</span>
 </div>
-<p class="sub" style="text-align:left;margin-top:.9rem">Lean 4.33.1 · Mathlib. Formally proved only when the source compiles without substituting the claim.</p>
+<p class="sub" style="text-align:left;margin-top:.9rem">Lean 4.33.1 · Mathlib. Formally proved only when the source compiles without substituting the claim. Proved for every m ≥ 1 (no sorry; standard axioms only): <a href="https://github.com/RFT-SIRM/Evgeny-Theorem">Evgeny-Theorem</a>.</p>
 </div></section>
 
 <footer>

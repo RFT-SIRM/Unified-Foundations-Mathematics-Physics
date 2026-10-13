@@ -2,8 +2,8 @@
 
 | Module | Current research object | Current status |
 |---|---|---|
-| Evgeny's Theorem | Exact trace-defect identity | Formalization in progress |
-| SU(2) / Operators | Unitary transport and connection operator | Active formalization |
+| Evgeny's Theorem | Exact trace-defect identity | `FORMALLY PROVED` (Lean 4, every $m \ge 1$, fourth moment); independent review pending |
+| SU(2) / Operators | Unitary transport and connection operator | Formalized for Evgeny's Theorem (unitarity, diagonal identities); further use active |
 | Yang–Mills | Gauge/spectral construction and continuum questions | Open research |
 | Riemann | Candidate spectral/arithmetic structure | Open research |
 | BSD | Local SU(2) factors and global structure | Local structure exact; global problem open |

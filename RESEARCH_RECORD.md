@@ -14,21 +14,17 @@ https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/
 
 Purpose: connect existing research repositories into one scientific program without merging them into a single codebase.
 
+## 2026-10-11 — Evgeny's Theorem closed in Lean 4
+
+`traceDefect_closed` ([Evgeny-Theorem](https://github.com/RFT-SIRM/Evgeny-Theorem), commit `82d5c42`) establishes the closed trace-defect identity for every $m \ge 1$ and every $\theta$; the bridge theorem `traceDefect_eq_delta` is in commit `180a96c`. State recorded at commit `9ed32ae`: no `sorry`; `#print axioms` lists `propext`, `Classical.choice`, `Quot.sound`; a build from a fresh clone completed successfully.
+
+Evidence level: C (`FORMALLY PROVED`). Scope: fourth moment, $m \ge 1$, the concrete operators defined in the repository. Not done: independent review of the Lean definitions, peer review, moments other than the fourth.
+
 ## Current central line
 
 Evgeny's Theorem remains the principal mathematical core.
 
-Active formalization sequence:
-
-SU(2) unitarity
-→ connection operator
-→ diagonal of $H$
-→ diagonal of $H^2$
-→ fourth trace
-→ flux/axis counting
-→ closed trace-defect identity
-
-Base case $m=1$ is proved in Lean; work continues toward general $m$.
+Its operator-level identity is formally proved in Lean 4 for every $m \ge 1$ (entry of 2026-10-11 above; details in [FORMALIZATION.md](./FORMALIZATION.md)).
 
 ## Scientific record principle
 

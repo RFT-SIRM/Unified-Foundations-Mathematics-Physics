@@ -53,7 +53,7 @@ https://rft-sirm.github.io/Unified-Foundations-Mathematics-Physics/
 
 ## First work items
 
-1. Evgeny's Theorem — complete Lean operator proof (general $m$)
+1. Evgeny's Theorem — Lean operator proof complete for $m \ge 1$; independent review of the formal definitions
 2. SU(2) operator layer
 3. Spectral / fractal mathematics
 4. Module research records (YM, Riemann, BSD, NS, scheduling, Phi-Genesis)
